@@ -40,6 +40,6 @@ if results:
         if qual['model'] == 'data.skill':
             print(f"{qual['code']} >> Квалификация \"{qual['title']}\"")
         elif qual['model'] == 'data.specialty':
-            print(f"{qual['code']} >> Специальность \"{qual['title']}\", пто")
+            print(f"{qual['code']} >> Специальность \"{qual['title']}\", ПТО")
 else:
     print("=============== Не найдено ===============")
